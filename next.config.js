@@ -2,6 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   rewrites() {
+    //api 숨기기
     return [
       {
         source: "/movies",
